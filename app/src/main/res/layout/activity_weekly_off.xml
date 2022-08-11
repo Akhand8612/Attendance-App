@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="10dp"
+    android:orientation="vertical"
+    tools:context=".activities.EmployeeDetail.Employee_Details">
+
+    <TextView
+        android:id="@+id/nameTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Name"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Test123"
+        android:textColor="#1d1d1d"
+        android:textSize="22sp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/fathersnameTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Father Name"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/fathersname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Test"
+        android:textColor="#1d1d1d"
+        android:textSize="22sp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/employeeidTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Employee Code" />
+
+    <TextView
+        android:id="@+id/employeeid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="2-ABC"
+        android:textColor="#1d1d1d"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/companynameTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Company Name"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/companyname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Canticle"
+        android:textColor="#1d1d1d"
+        android:textSize="22sp"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/employeecodebutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/colorPrimary"
+        android:text="Scan Employee  or code"
+        android:textColor="#fff"
+        android:visibility="gone" />
+
+    <EditText
+        android:id="@+id/unitCodeEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:hint="enter unit code for marking leave" />
+
+<!--    <Button-->
+<!--        android:id="@+id/unitButton"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:layout_marginRight="10dp"-->
+<!--        android:background="@color/colorPrimary"-->
+<!--        android:text="Get Designation"-->
+<!--        android:textColor="#fff" />-->
+
+    <TextView
+        android:id="@+id/siteunitTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Site/Unit"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/siteunit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#1d1d1d"
+        android:textSize="22sp"
+
+        android:visibility="gone" />
+
+<!--    <TextView-->
+<!--        android:id="@+id/designationTitle"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:text="Designation" />-->
+
+
+<!--    <Spinner-->
+<!--        android:id="@+id/spinner"-->
+<!--        android:layout_width="match_parent"-->
+
+<!--        android:layout_height="wrap_content"></Spinner>-->
+
+    <Button
+        android:id="@+id/weeklyOffButtton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/colorPrimary"
+        android:text="Mark Weekly off"
+        android:textColor="#fff" />
+
+</android.widget.LinearLayout>

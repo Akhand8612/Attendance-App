@@ -1,0 +1,44 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.intel.myapplication.Screens.Dashboard">
+    <item
+        android:id="@+id/action_example"
+        android:title="Attendance Report"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/setting"
+        android:title="Setting"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/sync"
+        android:title="Sync offline Data"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/play_tutorial"
+        android:title="Tutorial"
+        app:showAsAction="never" />
+    <!--<item
+        android:id="@+id/weeklyOff"
+        android:title="Weekly off"
+
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/leave"
+        android:title="Leave"
+
+        app:showAsAction="never" />-->
+    <item
+        android:id="@+id/sos"
+        android:icon="@drawable/sos"
+        android:title="sos"
+        android:visibility="invisible"
+        android:visible="false"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/clearCache"
+        android:icon="@drawable/delete_icon"
+        android:title="Clear Cache"
+        app:showAsAction="never"/>
+</menu>

@@ -1,0 +1,85 @@
+{
+  "project_info": {
+    "project_number": "208351317496",
+    "firebase_url": "https://drone-forcetech.firebaseio.com",
+    "project_id": "drone-forcetech",
+    "storage_bucket": "drone-forcetech.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:208351317496:android:f4ea1d30d60d88e7b1da0d",
+        "android_client_info": {
+          "package_name": "com.eiraj.intel.drone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "208351317496-3pih4k76ghfs0k9nkij9d67f2je9g1vf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.eiraj.intel.drone",
+            "certificate_hash": "3612a32e8b887396357311f4b7f47f6283d0a63f"
+          }
+        },
+        {
+          "client_id": "208351317496-c5k564tmbvuvcbvnbi2p16c4s2da8ng8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9EauAr6ENihdcW2cY9TXGwECU3eatWbw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "208351317496-c5k564tmbvuvcbvnbi2p16c4s2da8ng8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:208351317496:android:4d5a94328db90ac0b1da0d",
+        "android_client_info": {
+          "package_name": "com.eiraj.intel.dronefacedetection"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "208351317496-la0klk4j9mi1srlnpn4c09s3gmkuq57m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.eiraj.intel.dronefacedetection",
+            "certificate_hash": "3612a32e8b887396357311f4b7f47f6283d0a63f"
+          }
+        },
+        {
+          "client_id": "208351317496-c5k564tmbvuvcbvnbi2p16c4s2da8ng8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9EauAr6ENihdcW2cY9TXGwECU3eatWbw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "208351317496-c5k564tmbvuvcbvnbi2p16c4s2da8ng8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

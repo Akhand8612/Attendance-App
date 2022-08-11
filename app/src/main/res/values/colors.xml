@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@android:color/holo_red_dark</color>
+    <color name="colorPrimaryDark">#a40b1a</color>
+    <color name="colorAccent">@android:color/holo_red_dark</color>
+    <color name="year">#222222</color>
+    <color name="title">#222222</color>
+
+
+
+
+    <color name="actionbar_opacity">#33000000</color>
+    <color name="primary">#3F51B5</color>
+    <color name="primary_dark">#303F9F</color>
+    <color name="primary_light">#C5CAE9</color>
+    <color name="accent">#E040FB</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#727272</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="divider">#B6B6B6</color>
+    <color name="button_pressed_background">#66B2FF</color>
+    <color name="button_enabled_background">#3399FF</color>
+    <color name="button_disabled_background">#C0C0C0</color>
+    <color name="green">#4CAF50</color>
+    <color name="grey">#707070</color>
+
+    <color name="green600">#7CB342</color>
+    <color name="dark_grey">#424242</color>
+    <color name="white">#ffffff</color>
+    <color name="blue">#2196F3</color>
+    <color name="dark_yellow">#FFB300</color>
+    <color name="orange600">#F4511E</color>
+    <color name="light_grey">#E4E4E4</color>
+    <color name="black">#000</color>
+    <color name="canticle_red">#EC2227</color>
+</resources>

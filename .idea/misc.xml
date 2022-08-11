@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Work/GEOGraphics/canticleapp-drone_fireball-541f55143b51/canticleapp-drone_fireball-541f55143b51/app/src/main/res/layout/activity_identification_modified.xml" value="0.22826086956521738" />
+        <entry key="..\:/Work/GEOGraphics/canticleapp-drone_fireball-541f55143b51/canticleapp-drone_fireball-541f55143b51/app/src/main/res/layout/attendance_confirmation_dialog.xml" value="0.22826086956521738" />
+        <entry key="..\:/canticleapp-drone_fireball-541f55143b51/canticleapp-drone_fireball-541f55143b51/app/src/main/res/drawable/editext.xml" value="0.1725" />
+        <entry key="..\:/canticleapp-drone_fireball-541f55143b51/canticleapp-drone_fireball-541f55143b51/app/src/main/res/font/roboto.xml" value="0.28020833333333334" />
+        <entry key="..\:/canticleapp-drone_fireball-541f55143b51/canticleapp-drone_fireball-541f55143b51/app/src/main/res/layout/activity_admin_dashboard.xml" value="0.25" />
+        <entry key="..\:/canticleapp-drone_fireball-541f55143b51/canticleapp-drone_fireball-541f55143b51/app/src/main/res/layout/activity_attendance_report.xml" value="0.25" />
+        <entry key="..\:/canticleapp-drone_fireball-541f55143b51/canticleapp-drone_fireball-541f55143b51/app/src/main/res/layout/activity_dash_board_face.xml" value="0.264" />
+        <entry key="..\:/canticleapp-drone_fireball-541f55143b51/canticleapp-drone_fireball-541f55143b51/app/src/main/res/layout/activity_employee__details.xml" value="0.2" />
+        <entry key="..\:/canticleapp-drone_fireball-541f55143b51/canticleapp-drone_fireball-541f55143b51/app/src/main/res/layout/activity_employee_with_double_attendance.xml" value="0.25" />
+        <entry key="..\:/canticleapp-drone_fireball-541f55143b51/canticleapp-drone_fireball-541f55143b51/app/src/main/res/layout/activity_identification_modified.xml" value="0.25" />
+        <entry key="..\:/canticleapp-drone_fireball-541f55143b51/canticleapp-drone_fireball-541f55143b51/app/src/main/res/layout/activity_login.xml" value="0.264" />
+        <entry key="..\:/canticleapp-drone_fireball-541f55143b51/canticleapp-drone_fireball-541f55143b51/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/canticleapp-drone_fireball-541f55143b51/canticleapp-drone_fireball-541f55143b51/app/src/main/res/layout/activity_mark_attendance.xml" value="0.25" />
+        <entry key="..\:/canticleapp-drone_fireball-541f55143b51/canticleapp-drone_fireball-541f55143b51/app/src/main/res/layout/activity_notification_dashboard.xml" value="0.25" />
+        <entry key="..\:/canticleapp-drone_fireball-541f55143b51/canticleapp-drone_fireball-541f55143b51/app/src/main/res/layout/activity_select_image.xml" value="0.25" />
+        <entry key="..\:/canticleapp-drone_fireball-541f55143b51/canticleapp-drone_fireball-541f55143b51/app/src/main/res/layout/activity_setting.xml" value="0.25" />
+        <entry key="..\:/canticleapp-drone_fireball-541f55143b51/canticleapp-drone_fireball-541f55143b51/app/src/main/res/layout/activity_sos.xml" value="0.25" />
+        <entry key="..\:/canticleapp-drone_fireball-541f55143b51/canticleapp-drone_fireball-541f55143b51/app/src/main/res/layout/activity_splash.xml" value="0.25" />
+        <entry key="..\:/canticleapp-drone_fireball-541f55143b51/canticleapp-drone_fireball-541f55143b51/app/src/main/res/layout/activity_supervisor_dash_board.xml" value="0.25" />
+        <entry key="..\:/canticleapp-drone_fireball-541f55143b51/canticleapp-drone_fireball-541f55143b51/app/src/main/res/layout/activity_supervisor_main_screen.xml" value="0.25" />
+        <entry key="..\:/canticleapp-drone_fireball-541f55143b51/canticleapp-drone_fireball-541f55143b51/app/src/main/res/layout/activity_sync_list.xml" value="0.25" />
+        <entry key="..\:/canticleapp-drone_fireball-541f55143b51/canticleapp-drone_fireball-541f55143b51/app/src/main/res/layout/activity_sync_listlist.xml" value="0.25" />
+        <entry key="..\:/canticleapp-drone_fireball-541f55143b51/canticleapp-drone_fireball-541f55143b51/app/src/main/res/layout/activity_unit_report.xml" value="0.25" />
+        <entry key="..\:/canticleapp-drone_fireball-541f55143b51/canticleapp-drone_fireball-541f55143b51/app/src/main/res/layout/activity_unit_report_detail.xml" value="0.25" />
+        <entry key="..\:/canticleapp-drone_fireball-541f55143b51/canticleapp-drone_fireball-541f55143b51/app/src/main/res/layout/activity_user_face_registration.xml" value="0.25" />
+        <entry key="..\:/canticleapp-drone_fireball-541f55143b51/canticleapp-drone_fireball-541f55143b51/app/src/main/res/layout/activity_video__play.xml" value="0.25" />
+        <entry key="..\:/canticleapp-drone_fireball-541f55143b51/canticleapp-drone_fireball-541f55143b51/app/src/main/res/layout/activity_weekly_off.xml" value="0.25" />
+        <entry key="..\:/canticleapp-drone_fireball-541f55143b51/canticleapp-drone_fireball-541f55143b51/app/src/main/res/layout/attendance_confirmation_dialog.xml" value="0.264" />
+        <entry key="..\:/canticleapp-drone_fireball-541f55143b51/canticleapp-drone_fireball-541f55143b51/app/src/main/res/layout/attendance_list_row.xml" value="0.25" />
+        <entry key="..\:/canticleapp-drone_fireball-541f55143b51/canticleapp-drone_fireball-541f55143b51/app/src/main/res/layout/employee_double_list_row.xml" value="0.25" />
+        <entry key="..\:/canticleapp-drone_fireball-541f55143b51/canticleapp-drone_fireball-541f55143b51/app/src/main/res/layout/employee_no_list_row.xml" value="0.25" />
+        <entry key="..\:/canticleapp-drone_fireball-541f55143b51/canticleapp-drone_fireball-541f55143b51/app/src/main/res/layout/face_registered_dialog.xml" value="0.25" />
+        <entry key="..\:/canticleapp-drone_fireball-541f55143b51/canticleapp-drone_fireball-541f55143b51/app/src/main/res/layout/notification_card.xml" value="0.25" />
+        <entry key="..\:/canticleapp-drone_fireball-541f55143b51/canticleapp-drone_fireball-541f55143b51/app/src/main/res/layout/sos_list_row.xml" value="0.25" />
+        <entry key="..\:/canticleapp-drone_fireball-541f55143b51/canticleapp-drone_fireball-541f55143b51/app/src/main/res/layout/suggestion_dialog_face_recognition.xml" value="0.25" />
+        <entry key="..\:/canticleapp-drone_fireball-541f55143b51/canticleapp-drone_fireball-541f55143b51/app/src/main/res/layout/unit_detail_list_row.xml" value="0.25" />
+        <entry key="..\:/canticleapp-drone_fireball-541f55143b51/canticleapp-drone_fireball-541f55143b51/app/src/main/res/layout/unit_list_row.xml" value="0.25" />
+        <entry key="..\:/canticleapp-drone_fireball-541f55143b51/canticleapp-drone_fireball-541f55143b51/app/src/main/res/menu/dashmenu.xml" value="0.25" />
+        <entry key="..\:/canticleapp-drone_fireball-541f55143b51/canticleapp-drone_fireball-541f55143b51/app/src/main/res/menu/main2.xml" value="0.25" />
+        <entry key="..\:/canticleapp-drone_fireball-541f55143b51/canticleapp-drone_fireball-541f55143b51/app/src/main/res/menu/menu_delete_items.xml" value="0.25" />
+        <entry key="..\:/canticleapp-drone_fireball-541f55143b51/canticleapp-drone_fireball-541f55143b51/app/src/main/res/mipmap-anydpi-v26/geoimage.xml" value="0.19" />
+        <entry key="..\:/canticleapp-drone_fireball-541f55143b51/canticleapp-drone_fireball-541f55143b51/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1725" />
+        <entry key="..\:/canticleapp-drone_fireball-541f55143b51/canticleapp-drone_fireball-541f55143b51/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1725" />
+        <entry key="..\:/canticleapp-drone_fireball-541f55143b51_withOD/canticleapp-drone_fireball-541f55143b51/app/src/main/res/layout/activity_employee__details.xml" value="0.25" />
+        <entry key="..\:/canticleapp-drone_fireball-541f55143b51_withOD/canticleapp-drone_fireball-541f55143b51/app/src/main/res/layout/activity_mark_attendance.xml" value="0.25" />
+        <entry key="..\:/canticleapp-drone_fireball-541f55143b51_withOD/canticleapp-drone_fireball-541f55143b51/app/src/main/res/layout/attendance_confirmation_dialog.xml" value="0.25" />
+        <entry key="app/src/main/res/drawable/warning_icon.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_dash_board_face.xml" value="0.35572916666666665" />
+        <entry key="app/src/main/res/layout/activity_employee__details.xml" value="0.35572916666666665" />
+        <entry key="app/src/main/res/layout/activity_identification_modified.xml" value="0.35572916666666665" />
+        <entry key="app/src/main/res/layout/activity_mark_attendance.xml" value="0.2657407407407407" />
+        <entry key="app/src/main/res/layout/activity_notification_dashboard.xml" value="0.35572916666666665" />
+        <entry key="app/src/main/res/layout/notification_card.xml" value="0.35572916666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

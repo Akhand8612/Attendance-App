@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.intel.myapplication.Screens.Dashboard">
+    <item
+        android:id="@+id/unblock_employee"
+        android:title="Unblock Employee"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/play_tutorial"
+        android:title="Pdf"
+        app:showAsAction="never" />
+
+
+</menu>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.eiraj.intel.drone">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:name=".helper.SampleApp"
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/icon"
+        android:screenOrientation="portrait"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+
+        <activity android:name=".activities.Dashboard.AdminDashboard"/>
+        <activity android:name=".Faceui.UserFaceRegistration" />
+        <activity android:name=".activities.supervisor.EmployeeWithDoubleAttendance" />
+        <activity
+            android:name=".activities.supervisor.SupervisorMainScreen"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity android:name=".activities.supervisor.UnitReportDetail" />
+        <activity android:name=".activities.supervisor.UnitReport" />
+        <activity android:name=".activities.Dashboard.SosActivity" />
+        <activity android:name=".activities.EmployeeDetail.WeeklyOffActivity" />
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <activity
+            android:name=".activities.Login.LoginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.EmployeeDetail.Employee_Details"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.EmployeeDetail.MarkAttendance"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.EmployeeDetail.AttendanceReport"
+            android:label="Attendance Report"
+            android:parentActivityName=".activities.EmployeeDetail.AttendanceReport"
+            android:screenOrientation="portrait" />
+
+        <service
+            android:name=".Utils.service.SyncService"
+            android:process=":my_service"
+            android:screenOrientation="portrait"
+            android:stopWithTask="false" />
+
+        <service
+            android:name=".Utils.service.AutoPunchOutService"
+            android:label="Auto Punch Out service"
+            android:permission="android.permission.BIND_JOB_SERVICE" >
+        </service>
+
+        <service
+            android:name=".Utils.service.LocationService"
+            android:foregroundServiceType="location"
+            android:process=":my_service"
+            android:stopWithTask="false" />
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="6d3be451a3651b8eb6afa96b89df0854f69260c5" />
+
+        <activity
+            android:name=".activities.SplashActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.EmployeeDetail.Setting"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.EmployeeDetail.SyncList"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.Dashboard.Video_Play"
+            android:label="Tutorial"
+            android:parentActivityName=".activities.Dashboard.Video_Play"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.supervisor.SupervisorDashBoard"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.supervisor.EmployeeWithDoubleAttendanceDetail"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.supervisor.EmployeeWithNoAttendance"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.EmployeeDetail.LeaveActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Faceui.IdentificationActivityModified"
+            android:label="@string/identification"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Faceui.SelectImageActivity"
+            android:label="@string/select_an_image"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Faceui.DashBoardFace" />
+        <activity android:name=".Faceui.MainActivityPhotoBlink" />
+
+        <receiver
+            android:name=".Utils.service.SoundAndNotificationReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.canticle.drone.hindustan.START_ALARM" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name=".Utils.service.TriggerSoundAndNotification"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+
+        <service
+            android:name=".Utils.service.FirebaseNotification"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <service android:name=".Utils.service.UpdateLocationMonitoringService"
+            android:foregroundServiceType="location"
+            android:exported="false"/>
+
+        <service
+            android:name=".Utils.service.TrackLocationOnRequestService"
+            android:foregroundServiceType="location"
+            android:stopWithTask="false" />
+
+        <service
+            android:name=".Utils.service.LiveTrackService"
+            android:foregroundServiceType="location"
+            android:stopWithTask="false" />
+    </application>
+
+</manifest>

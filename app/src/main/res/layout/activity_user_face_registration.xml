@@ -1,0 +1,152 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/info"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/view_margin">
+
+            <ImageView
+                android:id="@id/image"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginBottom="5dp"
+                android:background="#E0E0E0"
+                android:contentDescription="@string/detection" />
+
+            <Button
+                android:id="@id/select_image"
+                style="@style/ButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/curved_primary_background"
+                android:insetTop="0dp"
+                android:layout_below="@+id/image"
+                android:insetBottom="0dp"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:text="@string/select_image" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#1d1d1d"
+                    android:textSize="14sp"
+                    android:text="Employee Code : "
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/employeeCodeTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#424242"
+                    android:textSize="16sp"
+                    android:text="code here"
+                    android:maxLines="2"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#1d1d1d"
+                    android:textSize="14sp"
+                    android:text="Name : "
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/employeeNameTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#424242"
+                    android:textSize="16sp"
+                    android:text="Name here"
+                    android:maxLines="2"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#1d1d1d"
+                    android:textSize="14sp"
+                    android:text="Registration Status : "
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/registrationStatus"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#F44336"
+                    android:textSize="16sp"
+                    android:text="Face Not Registered"
+                    android:maxLines="2"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@id/info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/button_bar"
+        android:textSize="18sp"
+        android:layout_centerHorizontal="true"
+        android:textColor="#424242"
+        android:layout_marginBottom="10dp"
+        android:text="Take a picture and click register face."
+        android:layout_gravity="center" />
+
+    <LinearLayout
+        android:id="@id/button_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/register"
+            style="@style/ButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="@dimen/view_margin"
+            android:layout_marginRight="@dimen/view_margin"
+            android:background="@drawable/curved_primary_background"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            android:layout_weight="1"
+            android:text="Register Face" />
+
+    </LinearLayout>
+
+</RelativeLayout>
