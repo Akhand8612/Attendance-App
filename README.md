@@ -17,3 +17,7 @@
    when employee shift is complete, apps auto punchout from app.    
 10. It also shows punchin and punchout time of employees and once you register your face in your id 
     then if you capture another person face then it shows wrong face captured.
+
+## Screenshots of App
+
+![Screenshot_20220811-140644_Attendance Geo Graphics](https://user-images.githubusercontent.com/91366721/184465743-3b6dee98-8150-458a-a6cf-c30372154cc0.jpg)
