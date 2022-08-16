@@ -36,3 +36,14 @@
 4. Retrofit
 5. QR scanner
 6. Face recognition, Volley, Glide
+
+## Build & Run the application
+
+1. Get the source code.
+   
+   https://github.com/Akhand8612/Employee-Attendance-App
+   
+2. Install in your system.
+3. When app is installed in your phone, just click on app and allow all permissions.
+4. make sure that your mobile data is on, top of the app shows that you are offline or online.
+5. Now, Login in the app with employee id and then mark attendance.
